@@ -1,0 +1,93 @@
+/* PC */
+@media (min-width: 1024px){
+    #header .mobile-menu-btn {
+        display: none;
+    }
+}
+
+/*Tablet & mobile*/
+@media (max-width: 1023px){
+    /*phần này dùng để làm UX*/
+    .btn {
+        padding: 15px 16px;
+    }
+
+    .contact-form .form-control {
+        padding: 15px;
+    }
+
+    .socials-list {
+        font-size: 48px;
+    }
+
+    #footer .socials-list a{
+        margin: 0px 8px;
+    }
+
+    #footer .copyright a{
+        padding: 12px 0px;
+        display: inline-block;
+    }
+}
+
+/*Tablet*/
+@media (max-width: 1023px) and (min-width: 740px) {
+    #header .mobile-menu-btn {
+        display: none;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .s-full-width,
+    .s-col-full {
+        width: 100% !important;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header {
+        overflow: hidden; /*responsive*//*ẩn đi những thẻ con trồi ra bên ngoài kích thước của thẻ cha*/
+    }
+
+    #nav .subnav {
+        position: initial;/*quay về giá trị position mặc định*/
+        background-color: #847;
+    }
+
+    #nav .subnav a {
+        color: #283;
+        padding: 0px 41px;
+    }
+
+    #content .member-item { /*sửa lại cách bố trí ảnh*/
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .place-item {
+        width: 100%;
+    }
+
+    .contact-form {
+        margin-top: 16px;
+    }
+}
