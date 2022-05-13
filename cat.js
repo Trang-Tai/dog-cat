@@ -1,5 +1,9 @@
 function Cat(name) {
     this.name = name;
-    this.age = age;
-    this.eat = ea;
 }
+
+Cat.prototype.sayHi = function() {
+    console.log('tao la', this.name);
+}
+
+module.exports = Cat;
